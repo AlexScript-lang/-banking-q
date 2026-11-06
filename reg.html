@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Open Account | Banking Q</title>
+         <link rel="stylesheet" href="banking.css">
+    </head>
+    <body>
+        
+            <header class="register-header">
+    <a href="banking.html" class="register-brand">
+           <img src="bankinglogo2.jpeg" alt="banking logo">
+    </a>
+
+    <a href="banking.html" class="back-home">Back to Home</a>
+
+        </header>
+        
+        <main>
+            <section class="register-section">
+
+    <div class="register-container">
+
+        <h1>Open Your Banking Q Account</h1>
+        <p>Create an account and enjoy simple, secure banking.</p>
+
+        <form id="registerForm">
+
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName"
+                    placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                    placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"
+                    placeholder="Create a password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Confirm your password" required>
+            </div>
+
+            <button type="submit" class="register-button">
+                Create Account
+            </button>
+
+            <p id="registerMessage"></p>
+
+        </form>
+
+        <p class="login-link">
+            Already have an account? <a href="login.html">Log In</a>
+        </p>
+
+    </div>
+
+</section>
+        </main>
+        <script src="reg.js"></script>
+    </body>
+</html>
